@@ -1,13 +1,16 @@
-import { Box } from "@mui/material";
+import { Box, Container } from "@mui/material";
+import CoffeeContainer from "../components/coffeeComponents/coffeeContainer";
 import Resume from "../components/resume";
 
 
 
 function Home(){
     return(
-        <Box>
+        <Container maxWidth="md" sx={{display:' flex', flexDirection:'column', alignItems:'center'}}>
+            
+            <CoffeeContainer/>
             <Resume/>
-        </Box>
+        </Container>
     
     )
 }

@@ -7,8 +7,8 @@ import file from '../pdf/LuisRamirez_resume.pdf'
 function Resume() {
   return (
     <>
-     <div className='resume-accordion'>
-      <Accordion>
+     
+      <Accordion sx={{ maxWidth:'500px'}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -23,7 +23,7 @@ function Resume() {
         </AccordionDetails>
       </Accordion>
 
-      </div>
+      
    
     </>
   );
