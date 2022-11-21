@@ -2,6 +2,8 @@
 
 This app generates a hot or cold coffee to help you decide what you should pick up at the coffee shop today!
 
+Api Used: https://api.sampleapis.com/coffee/
+
 ## Installation
 
 From root directory of app
