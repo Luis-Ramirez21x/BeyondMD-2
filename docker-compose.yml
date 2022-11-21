@@ -1,6 +1,5 @@
 services: 
-  client:
-    image: client
-    build: client/.
+  front-end:
+    build: ./front-end
     ports:
-    - "4001:3000"
+    - "3001:3000"
